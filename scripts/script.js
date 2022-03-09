@@ -9,10 +9,10 @@ function insertIcons (iconsArray, iconsContainer) {
         div.classList.add('box');
 
         div.innerHTML = `
-            <div class="box">
+           
                 <i class="${element.family} ${element.prefix}${element.name}" style="color: ${element.color}"></i>
                 <span>${element.name}</span>
-            </div>
+         
         `;
         iconsContainer.append(div);
     });
